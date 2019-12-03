@@ -35,6 +35,10 @@ var age = 28;
 // Type coercion
 console.log(firstName + ' ' + age);
 
+var boolValue = true;
+var strValue = 'Abhijeet';
+console.log(strValue + ' ' + boolValue);
+
 var job, isMarried;
 job = 'teacher';
 isMarried = false;
@@ -50,7 +54,6 @@ alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + is
 var lastName = prompt('What is his last Name?');
 console.log(firstName + ' ' + lastName);
 */
-
 
 
 /*****************************
@@ -71,11 +74,14 @@ console.log(yearJohn);
 console.log(now + 2);
 console.log(now * 2);
 console.log(now / 10);
-
+*/
 
 // Logical operators
+/*
 var johnOlder = ageJohn < ageMark;
+var newVar = ageMark == ageJohn
 console.log(johnOlder);
+console.log('newVar' + ' is ' + newVar);
 
 
 // typeof operator
@@ -85,7 +91,6 @@ console.log(typeof 'Mark is older tha John');
 var x;
 console.log(typeof x);
 */
-
 
 
 /*****************************
